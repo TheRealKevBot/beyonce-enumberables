@@ -28,6 +28,15 @@ beyonceHash = {
 # 1. puts all the songs
 # 2. puts all the movies
 # 3. create an array with a list of all of Beyonce's hit song titles
+
+def hit_song_titles
+    beyonceHash[:hits].map do |song|
+        binding.pry
+    end
+end
+
+hit_song_titles
+
 # 4. create an array with a list of all of Beyonce's fierceness ratings
 # 5. give me all the songs where Beyonce is wearing a bodysuit or a bodysuit is part of the video theme
 # 6. create an array with all of the songs where Beyonce's fierceness is greater than or equal to 8
